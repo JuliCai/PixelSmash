@@ -1,9 +1,9 @@
-Hi! I just finished all the assets for my game, and need help coding it using pygame (feel free to suggest something else if it's more suited). 
-I'll start with basic requirements:
+# basic requirements:
 1. the game is a pixel art scrolling 2D platformer, with a 256x144 resolution. Nothing should EVER be off grid.
-2. It's a tile based game, with each tile being 16x16 pixels, so the game world is 16 tiles wide and 9 tiles high.
+2. It's a tile based game, with each tile being 16x16 pixels, so the visible space is 16 tiles wide and 9 tiles high.
 3. The player is also 16x16 pixels, and can move left, right, jump, and fall due to gravity.
 4. There are enemy characters also 16x16 pixels that move towards the player when in sight range.
+5. Coded using pygame
 
 # Graphics
 Here's the Graphics pipeline, it's quite complicated:
