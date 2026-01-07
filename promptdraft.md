@@ -37,4 +37,4 @@ These are probably the simplest. Don't assume that they are just drawn straight 
 ## Animationsheets
 Easy. These are frames stacked horizontally, so the width and height are equal to the height, and the number of frames is width/height.
 ## Reflectionmaps
-This is water, which is the most complicated. The idea is that this, during the rendering step, you don't render the pixel at the actual pixel's location, you user this to find the location you render at: first, go up the grid vertically until you find a type that isn't 3 or 1. Then, travel that distance minus 1 upward again.
+This is water, which is the most complicated. The idea is that this, during the rendering step, you don't render the pixel at the actual pixel's location, you user this to find the location you render at: first, go up the grid vertically until you find a type that isn't 3 or 1. Then, travel that distance minus 1 upward again. for the horizontal, that is controlled by the grayscale value of the pixel, where you move over (value-0.5)\*vertical distance\*2 pixels
